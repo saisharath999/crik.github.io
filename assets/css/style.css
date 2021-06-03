@@ -1,0 +1,324 @@
+/*index page begining*/
+
+.jumb
+{
+  height: 720px;
+}
+
+/*navbar*/
+
+nav
+{
+background-color: #FF1E50; 
+}
+.navbar-nav li a:hover
+{
+	text-decoration:underline wavy blue; 
+	
+}
+.navbar-brand
+{
+font-weight:bold;
+letter-spacing:2px;	
+}
+
+.navbar-collapse .navbar-nav .nav-item .nav-link
+{
+color:#fff;	
+}
+.navbar-toggler-icon {
+  background-image: url(../images/flags/eng.jpg);
+}
+/*navbar*/
+
+.ne
+{
+  width:700px;
+  height:3px;
+}
+
+.win
+{
+  display: none;
+}
+.win1
+{
+  display: block;
+}
+/*index page end*/
+
+
+/*text over image begining*/
+
+.co {
+    background-image: url(../images/c.jpg);
+    height: 680px;
+  }
+  .rimg
+{
+display: block;
+}
+  .hr1
+  {
+    border-radius: 50%;
+    height: 2px
+  }
+
+ 
+  /*text over image end*/
+  
+
+
+  /*box shadow begining*/
+
+  .bo{
+  width: 260px;
+  height: 155px;
+  padding: 15px;
+  background-color: white;
+  box-shadow: 10px 10px rgb(170, 157, 197);
+  }
+
+  /*box shadow end*/
+  
+  
+  
+  /*standings begining*/
+  
+  .st
+  {
+  border-style:solid;
+  border-color: red;
+  border-width:0px 0px 2px 0px;
+  }
+  
+  /*standings end*/
+  
+  
+  /*teams begining*/
+  
+  .hove:hover
+  {
+  transform:scale(2.3);
+  }
+
+  .te1
+  {
+    height: 40px;
+  }
+
+  .te2
+  {
+  width: 630px; 
+  }
+    .te3:hover
+  {
+    background-image: linear-gradient(to bottom right, #dcb26a,#f6a10d, #dcb26a ); 
+    color:#ffffff;
+  }
+  
+  
+  .te4:hover
+  {
+    background-image: linear-gradient(to right, #414A4C,#000000, #414A4C ); 
+    color:#ffffff;
+  }
+
+  .te5:hover
+  {
+    background-image: linear-gradient(to right, #DE3831, #007A4D, #002395 ); 
+    color:#ffffff;
+  }
+  
+  .te6:hover
+  {
+    background-image: linear-gradient(to right, #6e1d26, #790D19, #70222a ); 
+    color:#ffffff;
+  }
+  
+  .te7:hover
+  {
+    background-image: linear-gradient(to bottom right, #c93a49 , #CE1124 , #c94754 ); 
+    color:#ffffff;
+  }
+  
+  .te8:hover
+  {
+    background-image: linear-gradient(to bottom right, #4d5d82 , #012169 , #425580 ); 
+    color:#ffffff;
+  }
+  
+  .te9:hover
+  {
+    background-image: linear-gradient(to bottom right, #537360 , #01411C , #558568 ); 
+    color:#ffffff;
+  }
+  
+  .te10:hover
+  {
+    background-image: linear-gradient(to bottom right, #f7c248 , #FFBE29 , #f7cc68 ); 
+    color:#ffffff;
+  }
+  
+  .te11:hover
+  {
+    background-image: linear-gradient(to bottom right, #487a6d , #006A4E , #3f7567 ); 
+    color:#ffffff;
+  }
+  
+  .te12:hover
+  {
+    background-image: linear-gradient(to right, #020202 , #BA2325 , #119849 ); 
+    color:#ffffff;
+  }
+
+  /*teams end*/
+  
+  /*fixtures begin*/
+  
+  .fi
+  {
+	height: 115px; 
+	background: linear-gradient(to top, #0052d4, #4364f7, #6fb1fc);  
+  }
+  .fi1
+  {
+  background: rgb(252, 0, 0);
+
+  }
+
+  
+  /*fixtures end*/
+
+  /*stats begining*/
+
+  .sta
+  {
+  cursor:pointer
+  }
+
+  /*stats end*/
+
+
+  /*rankings begining*/
+
+  .ran
+  {
+  cursor:pointer
+  }
+  .ran1
+  {
+    width: 50%;
+  }
+  
+  /*rankings end*/
+  
+  /*venue begining*/
+
+.ven
+{
+width:50%;
+}
+
+  /*venue end*/
+  
+  /*footer begining*/
+
+  .bgc
+  {
+   background-color: #232882 	;
+  }
+
+  /*footer end*/
+  
+  /*about begining*/
+ 
+   hgroup p
+  {
+  font-family: Verdana;
+  text-align-last: center;
+  }
+.abt
+{
+	width:50%;
+}
+.abo
+{
+  width:50%;
+}
+  /*about end*/
+
+
+ @media only screen and (min-width:320px) and (max-width:480px)
+ {
+
+  /*text over image begining*/
+.co {
+  background-image: url(../images/c.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+}
+.rimg
+{
+display: none;
+}
+.ne
+{
+  width:220px;
+  height:2px;
+}
+.fi
+{
+height: auto; 
+}
+.win
+{
+  display: block;
+}
+.win1
+{
+  display: none;
+}
+.te2
+  {
+  width: 100%; 
+  }
+/*text over image end*/ 
+.jumb
+{
+  height: auto;
+}
+.abt
+{
+	width:100%;
+}
+  /*venue begining*/
+
+  .ven
+{
+width: 100%;
+}
+
+  /*venue end*/
+  
+  /*about begining*/
+
+  .abo
+  {
+    width:100%
+  }
+
+  /*about end*/
+  
+  .te2
+  {
+  width: auto; 
+  }
+
+  .ran1
+  {
+    width: 100%;
+  }
+
+ }

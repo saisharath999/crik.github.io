@@ -1,0 +1,471 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Rankings</title>
+ 
+  <link rel="stylesheet" href="../assets/css/bootstrap.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <script src="../assets/js/jquery.js"></script>
+  <script src="../assets/js/bootstrap.min.js"></script>
+  <script src="../assets/js/jquery-ui.js"></script>
+  <link rel="stylesheet" href="../assets/css/jquery-ui.css">
+
+  <script>
+  $( function() {
+    $( "#tabs" ).tabs();
+  } );
+  </script>
+
+</head>
+
+<body class="bg-light">
+
+<!--nav bar begining-->
+
+<nav class="navbar navbar-expand-lg p-3">
+    <a class="navbar-brand text-white" href="../index.html">ICC CWC 2019</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse justify-content-end mr-5" id="navbarSupportedContent">
+      <ul class="navbar-nav ">
+        <li class="nav-item active">
+          <a class="nav-link opa" href="../index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="fixtures.html">Matches</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="standings.html">Standings</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="teams.html">Teams</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="stats.html">Stats</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="ranking.html">Rankings</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="venues.html">Venues</a>
+        </li>
+
+
+      </ul>
+
+    </div>
+  </nav>
+
+<!--navbar end--> 
+  
+
+<div class="container ran1 mt-3" id="tabs">
+  <ul class="bg-primary p-1" style="border:none;" >
+    <li style="border: none" class="bg-primary pl-lg-5 ml-lg-4"><a href="#tabs-1" class="text-white"><img src="../assets/images/6.png" class="mx-auto d-block" alt="">Batting</a></li>
+    <li style="border: none" class="bg-primary pl-lg-5"><a href="#tabs-2" class="text-white"><img src="../assets/images/4.png" class=" mx-auto d-block" alt="">Bowling</a></li>
+    <li style="border: none" class="bg-primary pl-lg-5"><a href="#tabs-3" class="text-white"><img src="../assets/images/2.png" class=" mx-auto d-block" alt="">All-rounders</a></li>
+    <li style="border: none" class="bg-primary pl-lg-5"><a href="#tabs-4" class="text-white"><img src="../assets/images/10.png" class=" mx-auto d-block" alt="">Teams</a></li>
+  </ul>
+
+  <div id="tabs-1" class="shadow-sm">
+    <table class="table table-borderless table-responsive-lg">
+      <thead style="background-color: rgb(233, 233, 159); border-width: 2px 0px 2px 0px; border-style: solid">
+        <tr>
+          <th scope="col">POSITION</th>
+          <th scope="col">PLAYERS</th>
+          <th scope="col">TEAMS</th>
+          <th scope="col">RATING</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Virat Kohli</td>
+          <td><img src="../assets/images/flags/ind.jpg" width="23px"> India</td>
+          <td>886</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Rohit Sharma</td>
+          <td><img src="../assets/images/flags/ind.jpg" width="23px"> India</td>
+          <td>881</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Babar Azam</td>
+          <td><img src="../assets/images/flags/pak.jpg" width="23px"> Pakistan</td>
+          <td>827</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Faf Duplesis</td>
+          <td><img src="../assets/images/flags/sa.jpg" width="23px"> South Africa</td>
+          <td>820</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Ross Taylor</td>
+          <td><img src="../assets/images/flags/nz.jpg" width="23px"> New Zealand</td>
+          <td>817</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Kane Williamson</td>
+          <td><img src="../assets/images/flags/nz.jpg" width="23px"> New Zealand</td>
+          <td>796</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>David Warner</td>
+          <td><img src="../assets/images/flags/aus.jpg" width="23px"> Australia</td>
+          <td>794</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Joe Root</td>
+          <td><img src="../assets/images/flags/eng.jpg" width="23px"> England</td>
+          <td>787</td>
+        </tr>
+         <tr>
+          <th scope="row">9</th>
+          <td>Quinton De Kock</td>
+          <td><img src="../assets/images/flags/sa.jpg" width="23px"> South Africa</td>
+          <td>781</td>
+        </tr>
+         <tr>
+          <th scope="row">10</th>
+          <td>Jason Roy</td>
+          <td><img src="../assets/images/flags/eng.jpg" width="23px"> England</td>
+          <td>774</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div id="tabs-2" class="shadow-sm">
+    <table class="table table-borderless table-responsive-lg">
+      <thead style="background-color: rgb(230, 104, 104); border-width: 2px 0px 2px 0px; border-style: solid">
+        <tr>
+          <th scope="col">POSITION</th>
+          <th scope="col">PLAYERS</th>
+          <th scope="col">TEAMS</th>
+          <th scope="col">RATING</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Jasprit Bumrah</td>
+          <td><img src="../assets/images/flags/ind.jpg" width="23px"> India</td>
+          <td>809</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Trent Boult</td>
+          <td><img src="../assets/images/flags/nz.jpg" width="23px"> New Zealand</td>
+          <td>740</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Kagiso Rabada</td>
+          <td><img src="../assets/images/flags/sa.jpg" width="23px"> South Africa</td>
+          <td>694</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Pat Cummins</td>
+          <td><img src="../assets/images/flags/aus.jpg" width="23px"> Australia</td>
+          <td>693</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Imran Tahir</td>
+          <td><img src="../assets/images/flags/sa.jpg" width="23px"> South Africa</td>
+          <td>683</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Mujeeb Ur Rahman</td>
+          <td><img src="../assets/images/flags/afg.jpg" width="23px"> Afghanistan</td>
+          <td>681</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Chris Woakes</td>
+          <td><img src="../assets/images/flags/eng.jpg" width="23px"> England</td>
+          <td>676</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Mitchell Starc</td>
+          <td><img src="../assets/images/flags/aus.jpg" width="23px"> Australia</td>
+          <td>663</td>
+        </tr>
+         <tr>
+          <th scope="row">9</th>
+          <td>Rashid khan</td>
+          <td><img src="../assets/images/flags/afg.jpg" width="23px"> Afghanistan</td>
+          <td>658</td>
+        </tr>
+         <tr>
+          <th scope="row">10</th>
+          <td>Matt Henry</td>
+          <td><img src="../assets/images/flags/nz.jpg" width="23px"> New Zealand</td>
+          <td>656</td>
+        </tr>
+
+      </tbody>
+    </table>
+  </div>
+
+  <div id="tabs-3" class="shadow-sm">
+    <table class="table table-borderless table-responsive-lg">
+      <thead style="background-color: rgb(218, 108, 68); border-width: 2px 0px 2px 0px; border-style: solid">
+        <tr>
+          <th scope="col">POSITION</th>
+          <th scope="col">PLAYERS</th>
+          <th scope="col">TEAMS</th>
+          <th scope="col">RATING</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Shakib Al Hasan </td>
+          <td><img src="../assets/images/flags/ban.jpg" width="23px"> Bangladesh</td>
+          <td>416</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Ben Stokes</td>
+          <td><img src="../assets/images/flags/eng.jpg" width="23px"> England</td>
+          <td>319</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td>Mohammad Nabi</td>
+          <td><img src="../assets/images/flags/afg.jpg" width="23px"> Afghanistan</td>
+          <td>310</td>
+        </tr>
+        <tr>
+          <th scope="row">4</th>
+          <td>Imad Wasim</td>
+          <td><img src="../assets/images/flags/pak.jpg" width="23px"> Pakistan</td>
+          <td>299</td>
+        </tr>
+        <tr>
+          <th scope="row">5</th>
+          <td>Rashid Khan</td>
+          <td><img src="../assets/images/flags/afg.jpg" width="23px"> Afghanistan</td>
+          <td>288</td>
+        </tr>
+        <tr>
+          <th scope="row">6</th>
+          <td>Chris Woakes</td>
+          <td><img src="../assets/images/flags/eng.jpg" width="23px"> England</td>
+          <td>267</td>
+        </tr>
+        <tr>
+          <th scope="row">7</th>
+          <td>Jason Holder</td>
+          <td><img src="../assets/images/flags/wi.png" width="23px"> West Indies</td>
+          <td>264</td>
+        </tr>
+        <tr>
+          <th scope="row">8</th>
+          <td>Mitchell Santner</td>
+          <td><img src="../assets/images/flags/nz.jpg" width="23px"> New Zealand</td>
+          <td>260</td>
+        </tr>
+         <tr>
+          <th scope="row">9</th>
+          <td>Andile Phehlukwayo</td>
+          <td><img src="../assets/images/flags/sa.jpg" width="23px"> South Africa</td>
+          <td>257</td>
+        </tr>
+         <tr>
+          <th scope="row">10</th>
+          <td>Hardik Pandya</td>
+          <td><img src="../assets/images/flags/ind.jpg" width="23px"> India</td>
+          <td>253</td>
+        </tr>
+
+      </tbody>
+    </table>  
+  </div>
+
+<div id="tabs-4" class="shadow-sm">
+  <table class="table table-borderless table-responsive-lg">
+    <thead style="background-color: skyblue; border-width: 2px 0px 2px 0px; border-style: solid">
+      <tr>
+        <th scope="col">POSITION</th>
+        <th scope="col">PLAYERS</th>
+        <th scope="col">RATING</th>
+        <th scope="col">POINTS</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">1</th>
+        <td><img src="../assets/images/flags/eng.jpg" width="23px"> England</td>
+        <td>123</td>
+        <td>6420</td>
+      </tr>
+      <tr>
+        <th scope="row">2</th>
+        <td><img src="../assets/images/flags/ind.jpg" width="23px"> India</td>
+        <td>122</td>
+        <td>6807</td>
+      </tr>
+      <tr>
+        <th scope="row">3</th>
+        <td><img src="../assets/images/flags/nz.jpg" width="23px"> New Zealand</td>
+        <td>113</td>
+        <td>4763</td>
+      </tr>
+      <tr>
+        <th scope="row">4</th>
+        <td><img src="../assets/images/flags/aus.jpg" width="23px"> Australia</td>
+        <td>112</td>
+        <td>5470</td>
+      </tr>
+      <tr>
+        <th scope="row">5</th>
+        <td><img src="../assets/images/flags/sa.jpg" width="23px"> South Africa</td>
+        <td>110</td>
+        <td>5193</td>
+      </tr>
+      <tr>
+        <th scope="row">6</th>
+        <td><img src="../assets/images/flags/pak.jpg" width="23px"> Pakistan</td>
+        <td>97</td>
+        <td>4756</td>
+      </tr>
+      <tr>
+        <th scope="row">7</th>
+        <td><img src="../assets/images/flags/ban.jpg" width="23px"> Bangladesh</td>
+        <td>90</td>
+        <td>3873</td>
+      </tr>
+      <tr>
+        <th scope="row">8</th>
+        <td><img src="../assets/images/flags/sl.jpg" width="23px"> Sri Lanka</td>
+        <td>79</td>
+        <td>4009</td>
+      </tr>
+       <tr>
+        <th scope="row">9</th>
+        <td><img src="../assets/images/flags/wi.png" width="23px"> West Indies</td>
+        <td>77</td>
+        <td>3606</td>
+      </tr>
+       <tr>
+        <th scope="row">10</th>
+        <td><img src="../assets/images/flags/afg.jpg" width="23px"> Afghanistan</td>
+        <td>59</td>
+        <td>2359</td>
+      </tr>
+
+    </tbody>
+  </table>
+</div>  
+
+</div>  
+
+<!--footer begining-->
+
+<div class="container-fluid bgc text-white mt-5 p-5">
+
+  <div class="row">
+   
+      
+  
+  <div class="col-lg-4 ml-sm-5">
+  
+  <h6>ABOUT US</h6>
+  
+  <p>
+  The ICC is the global governing body for cricket. Representing 104 members, the ICC governs and administrates the game and works with our members to grow the sport. The ICC is also responsible for the staging of all ICC Events.      
+  </p>
+  
+  <a href="assets/about.html">
+  
+      <h6 class="text-danger">Read More</h6>
+  
+  </a>
+  
+  </div>
+  
+  <div class="col-lg-2">
+      <h6>MENU</h6>
+      <ul class="list-unstyled">
+          <li>Matches</li>
+          <li>Standings</li>
+          <li>Teams</li>
+          <li>Stats</li>
+          <li>Ranking</li>
+          </ul>
+  
+  </div>
+  
+  
+  <div class="col-lg-3">
+  <h6>CONTACT US</h6>
+  <p>36 Drive Inn Street, Indian Sports City, Jubilee Hills Road, Hyderabad-500079, India.
+      <br>
+      91-9949237265, 91-9491549585,
+      040-24042175
+  </p>
+  
+  </div>
+  
+  <div class="col-lg-2">
+  
+  <h6 class="ml-sm-3 mb-3">SOCIAL MEDIA</h6>
+  
+  <a href="http://www.twitter.com"><img class="ml-sm-3" src="../assets/images/t.jpg"  width="25"/>
+  </a>
+  
+  <a href="http://www.google.com"><img class="ml-sm-3" src="../assets/images/g.jpg" width="25"/>
+  </a>
+  
+  <a href="http://www.fb.com"><img class="ml-sm-3" src="../assets/images/f.jpg" width="25"/>
+  </a>
+  </div>
+  
+  
+  </div>
+  
+  <hr class="bg-white">
+  
+  <div class="row">
+  <div class="col-lg-4">   
+  
+  <h6> &copy; 2019 ICC Cricket, All Rights Reserved </h6>
+  </div>
+  
+  <div class="col-lg-4"></div>
+  
+  <div class="col-lg-4">
+   
+          <ul class="list-inline">
+                  <li class="list-inline-item">Privacy Policy</li>
+                  <li class="list-inline-item">Terms of Use</li>
+                  <li class="list-inline-item">Site Map</li>
+           </ul>
+  
+  
+  </div> 
+  </div>
+  
+  </div> 
+  
+  <!--footer end-->
+
+</body>
+</html>
